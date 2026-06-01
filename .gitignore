@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+
+# Airflow logs
+logs/
+
+# dbt
+weather_analytics/target/
+weather_analytics/logs/
+weather_analytics/dbt_packages/
+
+# Metabase
+metabase-data/

@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: weather_data
+    schema: public
+    tables:
+      - name: openweather_europe_etl

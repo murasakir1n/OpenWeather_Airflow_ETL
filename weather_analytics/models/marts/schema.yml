@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: daily_weather_average
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: ""
+        data_tests:
+          - unique
+          - not_null
+
+  - name: 10_coldest_warmest
+    description: "A starter dbt model"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
