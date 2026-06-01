@@ -6,6 +6,10 @@ An end-to-end batch ETL pipeline that collects hourly weather data for **45 Euro
 
 ---
 
+## Dashboard
+
+![Dashboard](Dashboard.png)
+
 ## Architecture
 
 ```
@@ -116,6 +120,11 @@ dbt test
 # 🇷🇺 OpenWeather ETL — Столицы Европы
 
 Сквозной batch ETL-пайплайн: ежечасно собирает данные о погоде по **45 столицам европейских стран** из OpenWeather API, складывает сырые данные в объектное хранилище, загружает в облачное хранилище, трансформирует через dbt и визуализирует в Metabase.
+
+## Дашборд
+ 
+![Дашборд](Dashboard.png)
+
 
 ## Архитектура
 
